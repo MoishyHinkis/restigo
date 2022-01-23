@@ -17,7 +17,7 @@ export default class Supllier extends React.Component {
         ${this.supllier.current ? 'bg-red-100' : ''}
          hover:bg-blue-700 p-2`}>
             {this.supllier.supllier.name}
-            <img src={this.supllier.supllier.logo} alt={`${this.supllier.supllier.name} logo`} />
+            <img src={this.supllier.supllier.logo} alt={`${this.supllier.supllier.name} logo`} width={'50px'} />
         </div>
     }
 }
